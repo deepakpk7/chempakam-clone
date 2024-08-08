@@ -200,3 +200,39 @@
  .br a:hover{
     background-color: #f0f0f000;
  }
+ footer{
+    background-color: black;
+    display: flex;
+}
+footer div{
+    padding: 1.7% 0;
+}
+footer h6{
+    color: white;
+}
+
+.rows img{
+    width: 350px;
+    height: 80px;
+}
+.rows p{
+    color: white;
+  font-size: 13px;
+}
+.foot{
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 8%;
+    color: white;
+}
+.foot li{
+    padding: 4px;
+}
+.foot li:hover,.social li:hover{
+    color: rgb(208, 19, 19);
+}
+.whtsapp{
+    position: fixed;
+  bottom: 0;
+  right: 0;
+ }
