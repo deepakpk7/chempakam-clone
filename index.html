@@ -14,7 +14,7 @@
     <div class="welcome">
         <marquee behavior="" direction=""><b>WELCOME TO CHEMPAKAM </b></marquee>
     </div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img style="padding-left: 70px;" src="logo.png" alt="" ></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -44,17 +44,15 @@
                     </li>
                 </ul>
                 <div class="search-container">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <a href=""><img class="search" src="search.png" alt=""></a>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
                     </form>
                 </div>
                 <form class="d-flex">
-                    <!-- <button class="btn btn-primary" type="button">Search</button> -->
-                    <a href=""><img class="facbook" src="facebook.png" alt=""></a>
-                    <a href=""><img class="insta" src="instagram.png" alt=""></a>
-                    <a href=""><img class="heart" src="heart-fill.png" alt=""></a>
-                    <a href=""><img class="bag" src="bag.png" alt=""></a>
+                    <a href="#" class="me-2"><i class="fab fa-facebook fa-lg text-light"></i></a>
+                    <a href="#" class="me-2"><i class="fab fa-instagram fa-lg text-light"></i></a>
+                    <a href="#" class="me-2"><i class="fas fa-heart fa-lg text-light"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag fa-lg text-light"></i></a>
                 </form>
             </div>
         </div>
