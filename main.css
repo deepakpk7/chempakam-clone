@@ -167,6 +167,10 @@
     padding-top: 5px;
     padding-bottom: 35px;
 }
+.whtsapp svg {
+    width: 72px; 
+    height: 60px; 
+}
 .footer{
     display: flex;
     width: 100%;
@@ -236,3 +240,6 @@ footer h6{
   bottom: 0;
   right: 0;
  }
+
+ 
+/* Responsive */
